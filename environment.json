@@ -1,0 +1,22 @@
+{
+  "python": "3.12.14",
+  "system": "Darwin",
+  "release": "23.6.0",
+  "machine": "arm64",
+  "cpu_cores": 12,
+  "memory_gb": 18,
+  "workers": 6,
+  "numerical_threads_per_worker": 1,
+  "packages": {
+    "numpy": "2.5.4",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "threadpoolctl": "3.6.0",
+    "joblib": "1.6.0",
+    "python-dateutil": "3.0.0",
+    "pytz": "2026.5",
+    "tzdata": "2026.5",
+    "six": "1.17.0"
+  }
+}

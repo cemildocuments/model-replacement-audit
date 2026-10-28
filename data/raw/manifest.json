@@ -1,0 +1,75 @@
+[
+  {
+    "name": "banknote",
+    "uci_id": 267,
+    "url": "https://archive.ics.uci.edu/static/public/267/banknote+authentication.zip",
+    "sha256": "1e2acd9a2085fadf3d8145c12d3d22af853320d52294a6590c2eaf75fdc05227",
+    "files": [
+      "data_banknote_authentication.txt"
+    ],
+    "license": "CC-BY-4.0"
+  },
+  {
+    "name": "spambase",
+    "uci_id": 94,
+    "url": "https://archive.ics.uci.edu/static/public/94/spambase.zip",
+    "sha256": "813ac1df8effac70463c09c9c4b11e8803eefcab54771af66150852bcdcd1636",
+    "files": [
+      "spambase.DOCUMENTATION",
+      "spambase.data",
+      "spambase.names"
+    ],
+    "license": "CC-BY-4.0"
+  },
+  {
+    "name": "magic",
+    "uci_id": 159,
+    "url": "https://archive.ics.uci.edu/static/public/159/magic+gamma+telescope.zip",
+    "sha256": "252e0a78333c108d0ea54537b61154aa781e95a15675e65ddf9b76993617191d",
+    "files": [
+      "magic04.data",
+      "magic04.names"
+    ],
+    "license": "CC-BY-4.0"
+  },
+  {
+    "name": "pendigits",
+    "uci_id": 81,
+    "url": "https://archive.ics.uci.edu/static/public/81/pen+based+recognition+of+handwritten+digits.zip",
+    "sha256": "1e02bea023613c2b11c9492f6f34caf975420455934f3527d270cee9a1f03b64",
+    "files": [
+      "pendigits-orig.names",
+      "pendigits-orig.tes.Z",
+      "pendigits-orig.tra.Z",
+      "pendigits.names",
+      "pendigits.tes",
+      "pendigits.tra"
+    ],
+    "license": "CC-BY-4.0"
+  },
+  {
+    "name": "letter",
+    "uci_id": 59,
+    "url": "https://archive.ics.uci.edu/static/public/59/letter+recognition.zip",
+    "sha256": "3b5f07a334697b6cace4fbae22940393a18fee596e73f68d97ce5973d52dc60f",
+    "files": [
+      "Index",
+      "letter-recognition.data",
+      "letter-recognition.data.Z",
+      "letter-recognition.names"
+    ],
+    "license": "CC-BY-4.0"
+  },
+  {
+    "name": "wine",
+    "uci_id": 186,
+    "url": "https://archive.ics.uci.edu/static/public/186/wine+quality.zip",
+    "sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+    "files": [
+      "winequality-red.csv",
+      "winequality-white.csv",
+      "winequality.names"
+    ],
+    "license": "CC-BY-4.0"
+  }
+]

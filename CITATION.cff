@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "Please cite this research software and benchmark when using it."
+type: software
+title: "Certifying Model Replacement with Fewer Labels"
+version: 1.0.0
+date-released: 2026-10-27
+license: MIT
+authors:
+  - given-names: "Cemil Emre"
+    family-names: "Yavas"
+    email: "cemil@fairesresearch.org"
+    orcid: "https://orcid.org/0009-0006-9552-1731"
+    affiliation: "School of Computing, Georgia Southern University"
+  - given-names: "Lei"
+    family-names: "Chen"
+    email: "lchen@georgiasouthern.edu"
+    orcid: "https://orcid.org/0000-0002-3919-8056"
+    affiliation: "School of Computing, Georgia Southern University"
+  - given-names: "Yue"
+    family-names: "Zhang"
+    email: "yuezhang@georgiasouthern.edu"
+    orcid: "https://orcid.org/0009-0004-9337-6839"
+    affiliation: "Electrical and Computer Engineering, Georgia Southern University"
+  - given-names: "Nancy R."
+    family-names: "Mead"
+    email: "nm00@andrew.cmu.edu"
+    orcid: "https://orcid.org/0000-0002-2919-086X"
+    affiliation: "Software and Societal Systems Department, Carnegie Mellon University"
+abstract: "Replacing a classifier with a smaller version can reduce computation, but verifying that the replacement preserves accuracy may require expensive labels. We present a shared finite-pool audit that queries only inputs on which at least one candidate disagrees with a reference model. Exact hypergeometric count bounds control the excess classification error simultaneously across candidates and predetermined inspection budgets. One queried label can inform several comparisons, and a completed disagreement census gives an exact answer. We evaluate 240 replacements from random-forest and extremely randomized-tree ensembles on six public datasets, using five training splits and 500 audit repetitions per model family. At a 256-label budget and a one-percentage-point error tolerance, the audit certifies a replacement in 83.4% of runs, versus 49.8% for uniform conditional auditing, while reducing the selected ensemble’s tree count by 64.3% on average. Four of 30,000 audit trajectories contain an erroneous certification across all inspection points. In 34 controlled stress scenarios, maximum simultaneous undercoverage is 1.71% at a 5% allowance. The results identify when prediction agreement makes model replacement inexpensive to verify and when uncertainty requires retaining the reference. The guarantee concerns the fixed evaluation pool, not future-distribution accuracy."
+keywords:
+  - "active testing"
+  - "finite population inference"
+  - "model replacement"
+  - "risk certification"

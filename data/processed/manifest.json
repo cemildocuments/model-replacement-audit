@@ -1,0 +1,123 @@
+[
+  {
+    "dataset": "banknote",
+    "raw_n": 1372,
+    "n": 1348,
+    "features": 4,
+    "classes": 2,
+    "duplicates_removed": 24,
+    "feature_groups": 1348,
+    "class_labels": [
+      "0",
+      "1"
+    ],
+    "sha256": "861981d837f47e6056549b80be67bbc21eee2224d643710641cdaa5723bd3687"
+  },
+  {
+    "dataset": "spambase",
+    "raw_n": 4601,
+    "n": 4210,
+    "features": 57,
+    "classes": 2,
+    "duplicates_removed": 391,
+    "feature_groups": 4207,
+    "class_labels": [
+      "0",
+      "1"
+    ],
+    "sha256": "f51314422c2089de9e1aca974f887ee77feebc64c47a4d0789078004a961480a"
+  },
+  {
+    "dataset": "magic",
+    "raw_n": 19020,
+    "n": 18905,
+    "features": 10,
+    "classes": 2,
+    "duplicates_removed": 115,
+    "feature_groups": 18905,
+    "class_labels": [
+      "g",
+      "h"
+    ],
+    "sha256": "0f5f9dd7cf9c25a5599fe3ce27aa00c1db783256169ebb6db26f3a6ebb556fea"
+  },
+  {
+    "dataset": "pendigits",
+    "raw_n": 10992,
+    "n": 10992,
+    "features": 16,
+    "classes": 10,
+    "duplicates_removed": 0,
+    "feature_groups": 10992,
+    "class_labels": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "sha256": "2a8c43f4e40def18a6d834b605efa9fccd71cb62534acc320f287927151adb94"
+  },
+  {
+    "dataset": "letter",
+    "raw_n": 20000,
+    "n": 18668,
+    "features": 16,
+    "classes": 26,
+    "duplicates_removed": 1332,
+    "feature_groups": 18668,
+    "class_labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W",
+      "X",
+      "Y",
+      "Z"
+    ],
+    "sha256": "a4cd6944c70397e3539d3fae90d3fd8a83d678dbe04bfb70dcb3c61f14e45473"
+  },
+  {
+    "dataset": "wine",
+    "raw_n": 6497,
+    "n": 5320,
+    "features": 12,
+    "classes": 7,
+    "duplicates_removed": 1177,
+    "feature_groups": 5320,
+    "class_labels": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "sha256": "fc65a3f4902d38a64c5ac6e2792dffc969b144995a5adc4477722ae4411e4ad7"
+  }
+]
